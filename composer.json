@@ -1,0 +1,29 @@
+{
+	"name": "pseux/version",
+	"description": "Laravel package for static file versioning",
+	"keywords": ["laravel", "versioning"],
+	"license": "MIT",
+	"authors": [
+		{
+			"name": "Oliver Svenson",
+			"email": "olly@pseux.com"
+		}
+	],
+	"minimum-stability": "dev",
+	"require": {
+		"php": ">=5.4.0",
+		"laravel/framework": "5.*"
+	},
+	"extra": {
+		"laravel": {
+			"providers": [
+				"Pseux\\Backup\\VersionServiceProvider"
+			]
+		}
+	},
+	"autoload": {
+		"psr-4": {
+			"Pseux\\Backup\\": "src"
+		}
+	}
+}
