@@ -17,13 +17,13 @@
 	"extra": {
 		"laravel": {
 			"providers": [
-				"Pseux\\Backup\\VersionServiceProvider"
+				"Pseux\\Version\\VersionServiceProvider"
 			]
 		}
 	},
 	"autoload": {
 		"psr-4": {
-			"Pseux\\Backup\\": "src"
+			"Pseux\\Version\\": "src"
 		}
 	}
 }
